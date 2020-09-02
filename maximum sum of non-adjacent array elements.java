@@ -32,7 +32,7 @@ Max
         int currinc, currexc;
         for(int i=0; i<n; i++){
             currexc = Math.max(preexc, preinc);//sum after excluding the current element
-            currinc = preexc + arr[i];//su, after including the current element
+            currinc = preexc + arr[i];//sum after including the current element
             
             //changing old values before moving to next element
             preinc = currinc;
